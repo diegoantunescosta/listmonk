@@ -46,7 +46,7 @@ services:
     depends_on:
       - db
     volumes:
-      - ./config.toml:/listmonk/config.toml
+      - ./config.toml:config.toml
 
   demo-db:
     container_name: listmonk_demo_db
