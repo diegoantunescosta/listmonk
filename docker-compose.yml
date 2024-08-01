@@ -42,7 +42,7 @@ services:
     depends_on:
       - db
     volumes:
-      - ./config.toml:/listmonk/config.toml  # Ensure this path is correct and absolute
+      - /root/workspace/GROUPS/DKAGENCIA/listmonk/config.toml:/listmonk/config.toml  # Ensure this path is correct and absolute
 
 networks:
   listmonk:
